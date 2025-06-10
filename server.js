@@ -16,7 +16,7 @@ app.use(express.static('public'));
 
 // ✅ CORS middleware — updated to allow multiple origins if needed
 app.use((req, res, next) => {
-  const allowedOrigins = ['https://elopre0701.github.io', 'https://aris070103.github.io'];
+  const allowedOrigins = ['https://elopre0701.github.io'];
   const origin = req.headers.origin;
   
   if (allowedOrigins.includes(origin)) {
