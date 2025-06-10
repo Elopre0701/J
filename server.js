@@ -17,7 +17,7 @@ app.use(express.static('public'));
 // ✅ CORS middleware
 app.use((req, res, next) => {
   const allowedOrigins = [
-    'https://j-4tr0.onrender.com',
+    'https://j-4tr0.onrender.com/send-email',
     'https://elopre0701.github.io'
   ];
   const origin = req.headers.origin;
